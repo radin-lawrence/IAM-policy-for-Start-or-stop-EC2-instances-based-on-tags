@@ -21,8 +21,7 @@ Here we have two EC2 instances with the "Name" tag as"webserver", one instance i
           env     : env
        
 
-![image](https://user-images.githubusercontent.com/100775027/162905646-d73730fc-fd5d-4b82-9856-3e105934d44c.png)
-
+![image](https://user-images.githubusercontent.com/100775027/162912357-29e8a4af-900d-4558-9166-05a444f668bb.png)
 
 ## Add the IAM policy for the user
 
