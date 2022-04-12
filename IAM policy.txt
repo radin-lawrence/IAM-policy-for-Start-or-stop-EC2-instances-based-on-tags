@@ -1,0 +1,26 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "ec2:StartInstances",
+                "ec2:StopInstances",
+                "ec2:RebootInstances"
+            ],
+            "Resource": "arn:aws:ec2:your_region:your_account_ID:instance/*",   
+            "Condition": {
+                "StringEquals": {
+                    "ec2:ResourceTag/Name": "Webserver",
+                    "ec2:ResourceTag/project": "myproject",
+                    "ec2:ResourceTag/env": "dev"
+                }
+            }
+        },
+        {
+            "Effect": "Allow",
+            "Action": "ec2:Describe*",
+            "Resource": "*"
+        }
+    ]
+}
