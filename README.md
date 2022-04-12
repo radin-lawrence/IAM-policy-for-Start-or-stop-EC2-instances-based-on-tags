@@ -1,7 +1,7 @@
-# IAM policy for Start or stop EC2 instances based on tags
+# IAM policy for Start,stop ans reboot EC2 instances based on tags
 
 
-This example shows how you might create an identity-based policy that allows an IAM user to start or stop EC2 instances, but only if the instance tag Env has the value of the Dev. This policy defines permissions for programmatic and console access.
+This example shows how you might create an identity-based policy that allows an IAM user to Start,stop ans reboot EC2 instances, but only if the instance tag Env has the value of the Dev. This policy defines permissions for programmatic and console access.
 
 Here we have two EC2 instances with the "Name" tag as"webserver", one instance is used for production purposes and the other is for Development purposes. Here I'm using the project name or tag as "myproject". So here we are going to set the permission for a user to see all the instances and have the privilege to start, stop and reboot the instances with tags "Name" as "webserver",  "Project" as "myproject" and "env" as "dev".
 
