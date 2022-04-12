@@ -1,4 +1,4 @@
-# IAM policy for Start,stop ans reboot EC2 instances based on tags
+# IAM policy for Start,stop and reboot EC2 instances based on tags
 
 
 This example shows how you might create an identity-based policy that allows an IAM user to Start,stop ans reboot EC2 instances, but only if the instance tag Env has the value of the Dev. This policy defines permissions for programmatic and console access.
