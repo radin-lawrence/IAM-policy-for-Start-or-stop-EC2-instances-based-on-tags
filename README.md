@@ -5,6 +5,9 @@ This example shows how you might create an identity-based policy that allows an 
 
 Here we have two EC2 instances with the "Name" tag as"webserver", one instance is used for production purposes and the other is for Development purposes. Here I'm using the project name or tag as "myproject". So here we are going to set the permission for a user to see all the instances and have the privilege to start, stop and reboot the instances with tags "Name" as "webserver",  "Project" as "myproject" and "env" as "dev".
 
+![image](https://user-images.githubusercontent.com/100775027/162912357-29e8a4af-900d-4558-9166-05a444f668bb.png)
+
+
 ## Prerequisites
 
 - An IAM user on your AWS account that has "AWS Management Console access"
@@ -21,7 +24,6 @@ Here we have two EC2 instances with the "Name" tag as"webserver", one instance i
           env     : env
        
 
-![image](https://user-images.githubusercontent.com/100775027/162912357-29e8a4af-900d-4558-9166-05a444f668bb.png)
 
 ## Add the IAM policy for the user
 
