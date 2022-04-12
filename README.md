@@ -57,6 +57,7 @@ To add the policy for an already created user,  select the User name that you wa
 
 ```
 
+Please replace <region> with you AWS region and <account-id> with your AWS account id.
 
 ## Conclusion
 
